@@ -89,15 +89,14 @@ Menu Pengaturan berisi:
 
 ---
 
-## 👨‍💻 Developer
+## 👥 Tim Pengembang
 
-| Field    | Value                              |
-|----------|------------------------------------|
-| Nama     | Yureike Christiani Ismawan Bendon  |
-| NIM      | 2302070004                         |
-| Prodi    | Pendidikan Bahasa Jepang           |
+| Peran | Nama | NIM | Program Studi |
+|:---|:---|:---|:---|
+| **Developer / Programmer** | **Andreas Restuawanta Christwara** | `5312422036` | Teknik Komputer |
+| **Ide & Konseptor Materi** | **Yureike Christiani Ismawan Bendon** | `2302070004` | Pendidikan Bahasa Jepang |
 
-Akses via **Pengaturan → Tentang Saya**.
+Akses info lengkap via **Pengaturan → Tentang Saya**.
 
 ---
 

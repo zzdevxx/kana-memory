@@ -3671,7 +3671,7 @@
           + '<div class="mli-arrow">›</div>'
           + '</div>'
           + '<div class="menu-list-item" data-go="#/about-me">'
-          + '<div class="mli-icon">👨‍💻</div><div class="mli-label">Tentang Saya</div>'
+          + '<div class="mli-icon">👨‍💻</div><div class="mli-label">Tentang Pengembang</div>'
           + '<div class="mli-arrow">›</div>'
           + '</div>'
           + '</div>'
@@ -3759,34 +3759,31 @@
           + '</div></div>';
       });
 
-      // -- About Me --
+      // -- About Me / Team --
       Router.on('#/about-me', (root) => {
         root.innerHTML = '<div class="screen-wrap">'
           + '<div class="screen-header">'
           + '<button class="back-btn" data-go="#/profile" aria-label="Kembali">←</button>'
-          + '<h2 class="screen-title">Tentang Saya</h2>'
+          + '<h2 class="screen-title">Pengembang &amp; Tim</h2>'
           + '<div style="min-width:70px"></div>'
           + '</div>'
-          + '<div style="background:linear-gradient(135deg, var(--primary), var(--accent));border-radius:var(--radius);padding:28px 20px;text-align:center;color:white;margin-bottom:14px;position:relative;overflow:hidden">'
-          + '<div style="font-size:64px;line-height:1;margin-bottom:8px;position:relative">👨‍💻</div>'
-          + '<div style="font-size:13px;opacity:0.9;font-weight:600;position:relative">Developer</div>'
-          + '<div style="font-size:20px;font-weight:800;margin-top:4px;position:relative">Yureike Christiani I. B.</div>'
+          + '<div style="background:linear-gradient(135deg, var(--primary), var(--accent));border-radius:var(--radius);padding:24px 20px;text-align:center;color:white;margin-bottom:14px;position:relative;overflow:hidden">'
+          + '<div style="font-size:52px;line-height:1;margin-bottom:8px;position:relative">👨‍💻</div>'
+          + '<div style="font-size:12px;opacity:0.9;font-weight:700;text-transform:uppercase;letter-spacing:1px;position:relative">Lead Developer / Programmer</div>'
+          + '<div style="font-size:19px;font-weight:800;margin-top:3px;position:relative">Andreas Restuawanta Christwara</div>'
+          + '<div style="font-size:12px;opacity:0.85;margin-top:3px;position:relative">NIM 5312422036 &middot; Teknik Komputer</div>'
           + '</div>'
           + '<div class="menu-list">'
-          + '<div class="menu-list-item" style="cursor:default">'
-          + '<div class="mli-icon">🪪</div>'
-          + '<div style="flex:1;min-width:0"><div class="mli-label">Nama</div><div style="font-size:12px;color:var(--text-dim);margin-top:2px">Yureike Christiani Ismawan Bendon</div></div>'
-          + '</div>'
-          + '<div class="menu-list-item" style="cursor:default">'
-          + '<div class="mli-icon">🔢</div>'
-          + '<div style="flex:1;min-width:0"><div class="mli-label">NIM</div><div style="font-size:12px;color:var(--text-dim);margin-top:2px">2302070004</div></div>'
-          + '</div>'
-          + '<div class="menu-list-item" style="cursor:default">'
-          + '<div class="mli-icon">🎓</div>'
-          + '<div style="flex:1;min-width:0"><div class="mli-label">Program Studi</div><div style="font-size:12px;color:var(--text-dim);margin-top:2px">Pendidikan Bahasa Jepang</div></div>'
+          + '<div class="menu-list-item" style="cursor:default;align-items:flex-start;padding:14px 16px">'
+          + '<div class="mli-icon" style="font-size:22px">💡</div>'
+          + '<div style="flex:1;min-width:0">'
+          + '<div style="font-size:11px;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.5px">Ide &amp; Konseptor Materi</div>'
+          + '<div style="font-size:14px;font-weight:800;color:var(--text);margin-top:2px">Yureike Christiani Ismawan Bendon</div>'
+          + '<div style="font-size:12px;color:var(--text-dim);margin-top:2px">NIM 2302070004 &middot; Pendidikan Bahasa Jepang</div>'
           + '</div>'
           + '</div>'
-          + '<p class="text-center" style="margin-top:20px;font-size:11px;color:var(--text-faint)">「日本語を楽しく学ぼう！」</p>'
+          + '</div>'
+          + '<p class="text-center" style="margin-top:20px;font-size:11px;color:var(--text-faint)">「日本語を楽しく学ぼう！」 &middot; Made with ❤️</p>'
           + '</div>';
       });
 
