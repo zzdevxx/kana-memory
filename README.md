@@ -2,6 +2,7 @@
 
 > Belajar huruf Jepang (Hiragana, Katakana, Kanji N5, Kosakata) lewat **Memory Game**, **Quiz**, dan **Flashcard**. Single-file offline web app — buka di browser, langsung pakai.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen?style=flat-square&logo=github)](https://zzdevxx.github.io/kana-memory/)
 ![Status](https://img.shields.io/badge/status-stable-a78bfa?style=flat-square)
 ![Stack](https://img.shields.io/badge/stack-vanilla_JS-fbbf24?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
